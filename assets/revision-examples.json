@@ -1,0 +1,51 @@
+{
+  "role": "仅作语义审阅回归示例，不是科研事实或自动禁词替换规则",
+  "examples": [
+    {
+      "id": "method_content_not_asset_identity",
+      "surface": "title_and_figure_caption",
+      "before": "Method-A：作者整体方法图；用户提供截图，原图注保留",
+      "source_facts": ["仅在原文已核时，采用双观测方位参考及相应约束的具体机制表述"],
+      "after": "Method-A：双观测方位参考约束目标方位生成",
+      "when_unverified": "Method-A：方位条件与生成路径；只讲已核输入和计算",
+      "keep": ["正式作者/方法/年份/图号引用"],
+      "reason": "用研究机制替代素材身份；不得因清理制作话术补造方法事实"
+    },
+    {
+      "id": "classification_not_updated_angle_readouts",
+      "surface": "body_and_speaker_notes",
+      "before": "旧图册使用旧reader，已有新评估",
+      "source_facts": ["新增的是Classifier-A对评价集合的类别总体匹配率", "本批方位逐图预测仍由AngleEstimator-B及窗口W产生", "没有该批样本的新方位逐图预测"],
+      "after": "类别一致性由Classifier-A在评价集合上统计请求类别匹配率，报告样本数n；方位逐图预测由AngleEstimator-B在窗口W下产生，本批未更新方位预测。",
+      "keep": ["实际方法名、评价集合、指标和分母", "方位方法与窗口条件", "没有同批新方位结果这一限制"],
+      "reason": "分类总体重评与方位逐图结果是不同评价对象，不用抽象新旧标签混称"
+    },
+    {
+      "id": "pixels_are_not_population_benefit",
+      "surface": "result_title",
+      "before": "方法显著提升控制能力",
+      "source_facts": ["只有固定请求下的匹配像素样例，没有可用的总体收益检验"],
+      "after": "固定请求下的生成样例与实测参照",
+      "keep": ["固定与改变条件", "样例与参照身份"],
+      "reason": "样例支持观察差异，不独自证明总体收益"
+    },
+    {
+      "id": "preserve_valid_scientific_qualification",
+      "surface": "footer_and_notes",
+      "before": "Author et al., 方法名, 年份, Fig.2；真实Dev参照同图复用；角度为窗口W下的预测。",
+      "source_facts": ["引用合法且参照身份与窗口影响解释"],
+      "after": "Author et al., 方法名, 年份, Fig.2；真实Dev参照同图复用；角度为窗口W下的预测。",
+      "keep": ["正式来源", "同图复用", "预测窗口条件"],
+      "reason": "来源和必要科学条件不属于制作过程；不可按词匹配误删"
+    },
+    {
+      "id": "negative_result_remains_complete",
+      "surface": "body_and_result_caption",
+      "before": "先看主图；内边界改善，外边界退化，整体相容性仍未建立。",
+      "source_facts": ["两个边界有相反变化，尚无整体相容性证据"],
+      "after": "内边界改善、外边界退化，整体相容性仍未建立。",
+      "keep": ["相反变化", "未建立整体相容性"],
+      "reason": "删空洞制作指令，保留完整负结果，不强推肯定结论"
+    }
+  ]
+}

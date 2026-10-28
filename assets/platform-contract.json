@@ -1,0 +1,21 @@
+{
+  "document_role": "平台能力契约；不是授权或执行配置",
+  "host": null, "runtime_version": null, "skill_load_evidence": null,
+  "cwd": null, "allowed_read_roots": [], "allowed_write_roots": [],
+  "model_route": {"requested": null, "observed": null, "privacy_eligibility": null},
+  "capabilities": {
+    "resource_resolution": {"status": "missing", "entry": null, "evidence": null},
+    "file_read_write_search": {"status": "missing", "entry": null, "evidence": null},
+    "document_content": {"status": "missing", "entry": null, "evidence": null},
+    "reference_image_view": {"status": "missing", "entry": null, "evidence": null},
+    "command_execution": {"status": "missing", "entry": null, "evidence": null},
+    "python_pdf_node_fonts": {"status": "missing", "entry": null, "evidence": null},
+    "design_preview": {"status": "missing", "entry": null, "evidence": null},
+    "actual_office_render_edit": {"status": "missing", "entry": null, "evidence": null},
+    "artifact_delivery": {"status": "missing", "entry": null, "evidence": null}
+  },
+  "status_vocabulary": ["verified", "declared_not_run", "missing", "not_required"],
+  "node_project": null, "font_probe_platform": null,
+  "blocked_dependent_steps": [], "authorized_executor_handoff": null,
+  "not_authorized_by_adaptation": ["new_dependency_installation", "new_model_run", "external_upload", "permission_expansion", "new_experiment"]
+}

@@ -1,0 +1,9 @@
+interface:
+  display_name: "Research PPT SOP"
+  short_description: "Reference-driven, editable research presentations"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.png"
+  brand_color: "#245BC7"
+  default_prompt: "Use $research-ppt-sop to turn my source draft, evidence and reference deck into an editable research presentation. Check platform capabilities, explain mechanisms, and review the finished slides for the audience."
+policy:
+  allow_implicit_invocation: true

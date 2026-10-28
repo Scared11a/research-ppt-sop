@@ -1,0 +1,42 @@
+{
+  "title": "接口填写示意，不是已制作或已验证的汇报",
+  "width": 13.333333,
+  "height": 7.5,
+  "theme": {
+    "headingFont": "Microsoft YaHei",
+    "bodyFont": "Microsoft YaHei",
+    "latinFont": "Times New Roman",
+    "mathFont": "Cambria Math",
+    "fontVerificationRequired": true,
+    "background": "FFFFFF",
+    "ink": "151515",
+    "accent": "1954C9",
+    "secondary": "BF2600",
+    "surface": "EFF4FC",
+    "muted": "657187"
+  },
+  "slides": [
+    {
+      "title": "替换为当前页面的具体问题",
+      "source": "",
+      "notes": "填写真实讲述和必要来源；制作说明另存日志。",
+      "objects": [
+        {
+          "type": "text",
+          "name": "claim_native",
+          "x": 0.6, "y": 1.0, "w": 12.0, "h": 0.6,
+          "fontSize": 20,
+          "runs": [{"text": "本页要回答的"}, {"text": "具体问题", "bold": true, "colorRole": "accent"}]
+        },
+        {
+          "type": "text",
+          "name": "formula_variable_native",
+          "x": 0.7, "y": 2.0, "w": 2.0, "h": 0.5,
+          "fontSize": 20,
+          "runs": [{"text": "u", "fontRole": "math"}, {"text": "l", "fontRole": "math", "subscript": true}]
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

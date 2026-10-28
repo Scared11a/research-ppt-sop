@@ -1,0 +1,19 @@
+{
+  "document_role": "封面目录填写契约，不是自动生成器配置",
+  "cover": {
+    "reference_ref": null, "reference_page": null,
+    "report_context": null, "title": null, "subtitle": null,
+    "presenter": null, "institution": null, "group": null, "date_or_meeting": null,
+    "authorized_background": null, "authorized_marks": [],
+    "composition": {"visual_focus": null, "title_subtitle_hierarchy": null, "identity_group_position": null, "negative_space": null},
+    "native_text_requirements": ["title", "subtitle", "presenter", "institution"],
+    "missing_required_identity": []
+  },
+  "contents": {
+    "actual_slide_count": null, "main_slide_count": null, "backup_slide_count": null,
+    "page_number_policy": null, "special_pages_not_listed": [],
+    "sections": [{"section_id": null, "label": null, "main_or_backup": null, "start_page": null, "end_page": null, "target_slide_id": null, "navigation_entry": null}],
+    "affected_cross_page_references": [], "old_to_new_map": null,
+    "checks": {"ranges_match_actual_order": null, "navigation_targets_resolve": null, "inherited_and_added_pages_checked": null, "body_notes_references_updated": null, "actual_application_click_test": "not_run"}
+  }
+}

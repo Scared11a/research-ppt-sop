@@ -1,0 +1,23 @@
+{
+  "document_role": "任务填写骨架；复制到工作目录后填写，不是自动执行配置",
+  "purpose": null,
+  "audience": null,
+  "duration_minutes": null,
+  "capability_goals": [],
+  "discussion_decisions": [],
+  "platform_contract": null,
+  "frontmatter_contract": null,
+  "audience_review": null,
+  "main_draft": {"ref": null, "checked_at": null},
+  "scientific_fact_sources": [],
+  "current_complete_deck": {"ref": null, "version": null, "main_slides": null, "backup_slides": null},
+  "existing_build_entry": {"ref": null, "mode": null, "default_side_effects_checked": false},
+  "reference": {"ref": null, "format": null, "representative_pages": [], "style_already_approved": false},
+  "evidence_ledger": null,
+  "editability": {"titles_body_labels": "native_text", "graphics": null, "chart_data": null, "office_equations": null},
+  "fonts": {"chinese": null, "latin": null, "math": null, "substitution_permission": null},
+  "paths": {"workdir": null, "output_dir": null, "node_project": null},
+  "permissions": {"single_writer": null, "allowed_source_edits": [], "restricted_exports": [], "experiments": "not_authorized_by_ppt_task", "dependency_installation": "not_authorized_by_default", "external_upload": "not_authorized_by_default"},
+  "office_verification": {"required": null, "approved_channel": null, "cancelled_for_this_task": false},
+  "unresolved_critical_inputs": []
+}
